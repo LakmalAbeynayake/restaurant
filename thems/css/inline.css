@@ -1,0 +1,396 @@
+#bill_content {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .contbtn{
+            cursor:pointer;font-size: 14px;margin:5px 0px 1px 0px;height: 50px;display: flex;justify-content: center;align-items: center;
+        }
+        @font-face {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+                url(https://singha.lakmal.newviableerp.com/thems/fonts/trnbTfqisuuhRVI3i45C5w.woff) format('woff');
+        }
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Ubuntu, system-ui, sans-serif;
+        }
+        .hide_me {
+            visibility: hidden
+        }
+        .btn-round-xs {
+            border-radius: 11px;
+            padding-left: 10px;
+            padding-right: 10px
+        }
+        #add_item {
+            background: right no-repeat;
+            padding-right: 17px
+        }
+        .select2-container .select2-choice .select2-arrow {
+            background-image: none !important;
+            width: 28px !important;
+            text-align: center;
+            padding-top: 0
+        }
+        .select2-container .select2-choice .select2-arrow b {
+            background: 0 0 !important;
+            display: block;
+            height: 100%;
+            width: 100%
+        }
+        .select2-container .select2-choice .select2-arrow b:before {
+            content: "\f078";
+            display: inline;
+            font-family: FontAwesome;
+            font-weight: 300;
+            height: auto;
+            text-shadow: none
+        }
+        .select2-dropdown-open.select2-container-active .select2-choice .select2-arrow b:before {
+            content: "\f077"
+        }
+        .select2-container-multi .select2-choices {
+            background-image: none !important;
+            background-color: #FFF !important
+        }
+        body {
+            font-size: 13px
+        }
+        .input-group-addon {
+            text-align: left;
+            background-color: inherit
+        }
+        #cpinner {
+            width: 100%
+        }
+        .tab-green>li.active>a,
+        .tab-green>li.active>a:focus,
+        .tab-green>li.active>a:hover {
+            border-color: #3d9400 #ddd transparent;
+            border-top: 2px solid #3d9400
+        }
+        .tab-green>li>a:hover {
+            color: #3d9400
+        }
+        .tab-green>li.dropdown.open.active>a:focus,
+        .tab-green>li.dropdown.open.active>a:hover,
+        .tab-green>li.open .dropdown-toggle {
+            background-color: #3d9400;
+            border-color: #3d9400;
+            color: #fff
+        }
+        .tab-green .active>a,
+        .tab-green .active>a:focus,
+        .tab-green .active>a:hover,
+        .tab-green .dropdown-menu>li>a:focus,
+        .tab-green .dropdown-menu>li>a:hover {
+            background-color: #3d9400
+        }
+        body .modal {
+            width: auto !important
+        }
+        .dataTables_processing {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 40px;
+            margin-left: -50%;
+            margin-top: -25px;
+            padding-top: 0;
+            text-align: center;
+            font-size: 2em;
+            background-color: #fff;
+            background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(25%, rgba(255, 255, 255, .9)), color-stop(75%, rgba(255, 255, 255, .9)), color-stop(100%, rgba(255, 255, 255, 0)));
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .9) 25%, rgba(255, 255, 255, .9) 75%, rgba(255, 255, 255, 0) 100%);
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .9) 25%, rgba(255, 255, 255, .9) 75%, rgba(255, 255, 255, 0) 100%);
+            background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .9) 25%, rgba(255, 255, 255, .9) 75%, rgba(255, 255, 255, 0) 100%);
+            background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .9) 25%, rgba(255, 255, 255, .9) 75%, rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .9) 25%, rgba(255, 255, 255, .9) 75%, rgba(255, 255, 255, 0) 100%)
+        }
+        .form-control.input-sm {
+            font-size: 19px !important;
+        }
+        .ui-widget {
+            font-size: 1.8em;
+        }
+        #ajaxproducts {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        #item-list {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+        }
+        /*.home-fer_btn {
+            font-weight: bold;
+            font-size: 19px;
+            height: 120px;
+            min-width: 208px;
+            max-width: 180px;
+            width: 290px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+        }*/
+        /*.cal-wap button {
+            width: 80px;
+            height: 80px;
+            font-size: 40px;
+            margin: 5px;
+            background-color: #orange;
+        }
+        .amount-wap button {
+            width: 97px;
+            height: 55px;
+            font-size: 35px;
+            margin: 3px;
+        }
+        .amount-wap {
+            margin-top: 20px;
+        }*/
+        .form-control.input-sm {
+            font-size: 14px;
+            height: 47px;
+            line-height: 16px;
+            padding: 3px;
+            font-size: 16px;
+        }
+        /*.nav-tabs li.active>a{
+	margin:0 -1px -8px 0 !important;
+}*/
+        .nav-tabs li.active>a {
+            margin: 0 -1px 0 0;
+        }
+        /*the container must be positioned relative:*/
+        .autocomplete {
+            position: relative;
+            display: inline-block;
+        }
+        input {
+            border: 1px solid transparent;
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .autocomplete-items {
+            position: relative;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+        }
+        .autocomplete-items div {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            border-bottom: 1px solid #d4d4d4;
+        }
+        /*when hovering an item:*/
+        .autocomplete-items div:hover {
+            background-color: #e9e9e9;
+        }
+        /*when navigating through the items using the arrow keys:*/
+        .autocomplete-active {
+            background-color: DodgerBlue !important;
+            color: #ffffff;
+        }
+        .btn-group-vertical {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 1px 0px 1px 0px;
+        }
+        /*
+.btn-group-vertical>.btn,
+.btn-group-vertical>.btn-group,
+.btn-group-vertical>.btn-group>.btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 2px 5px 5px 5px;
+    font-size:1.1vw;
+}
+*/
+        .navbar-nav>li.active {
+            margin-bottom: -10px;
+        }
+        /*below active*/
+        .item_btn_1 {
+            font-weight: bold;
+            font-size: 14px;
+            height: 80px;
+            min-width: 160px;
+            max-width: 180px;
+            position: relative;
+            margin: 0px;
+            width: 25%;
+            background: black;
+            color: white;
+            cursor: pointer;
+            padding: 1px;
+            margin-bottom: 2px;
+            margin-left: 2px;
+        }
+        .item_btn_1:hover {
+            background: black;
+            color: white;
+        }
+        .label-item {
+            background-color: rgba(255, 255, 255, 0.95);
+            /* text-align:justify;  */
+            font-size: 16px;
+            max-height: 67px;
+            position: absolute;
+            right: 0;
+            width: 100%;
+        }
+        #item-list>div>div>div.tab-pane.active {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .label-item {
+            background-color: rgba(255, 255, 255, 0.95);
+            /* text-align: justify; */
+            font-size: 17px;
+            max-height: 77px;
+            position: absolute;
+            right: 0;
+            width: 100%;
+            top: 2px;
+        }
+        .modal.fade.in:visible {
+            display: flex;
+            align-items: center;
+        }
+        /*
+        $('.modal.fade.in:visible').css({
+            'display': 'flex',
+            'align-items': 'center'
+        });
+        */
+        #cat_label_containet>ul,
+        #cat_label_containet>ul>li {
+            list-style: none;
+        }
+        #cat_label_containet>ul>li>a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 14px;
+        }
+        #cat_label_containet>ul>li>a:hover {
+            text-decoration: none;
+        }
+        #cat_label_containet>ul>li {
+            box-shadow: 2px 3px 2px 0px;
+        }
+        #cat_label_containet>ul>li.active {
+            background: #ffee008f;
+            box-shadow: inset 0 3px 5px rgb(0 0 0 / 71%);
+        }
+        #cat_label_containet>ul>li.active>a {
+            text-decoration: none;
+        }
+        .price-square {
+            width: 100px;
+            height: 60px;
+            margin: 5px;
+            background-color: #db3434f7;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            font-size: 1.5vw;
+            font-family: math;
+        }
+        .price-square:hover {
+            background-color: #2980b9;
+            /* Change the hover color as needed */
+        }
+        .table-square {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: #db3434f7;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            font-size: 1.5vw;
+            font-family: math;
+        }
+        .table-square:hover {
+            background-color: #2980b9;
+            /* Change the hover color as needed */
+        }
+        #content {
+            padding: 10px !important;
+        }
+        .bill_styles {
+            page-break-after: auto;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        /*connecting*/
+        .connecting {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                background-color: #ff9999;
+                /* Initial color */
+                /*transform: scale(1);*/
+            }
+            50% {
+                background-color: #ff6666;
+                /* Intermediate color */
+                /*transform: scale(1.1);*/
+            }
+            100% {
+                background-color: #ff9999;
+                /* Back to initial color */
+                /*transform: scale(1);*/
+            }
+        }
+        .btn.active,
+        .btn:active {
+            box-shadow: inset 0 3px 5px rgb(0 0 0);
+        }
+        
+        #posTable > thead > tr{
+            position:sticky;
+            top:0px;
+        }
+
+        .ui-autocomplete{
+            z-index : 9999;
+        }
+        
+        #cus_phoneautocomplete-list{
+            position: absolute;
+            top: 35px;
+        } 
