@@ -113,9 +113,9 @@ if(ENVIRONMENT == 'development'){
 }
 
 $db['development']['hostname'] = 'localhost'; 		
-$db['development']['username'] = 'lakmalnewviablee_singha_bakers';
-$db['development']['password'] = '6TxDq6?U0INo';
-$db['development']['database'] = 'lakmalnewviablee_singha_bakers';
+$db['development']['username'] = '';
+$db['development']['password'] = '';
+$db['development']['database'] = '';
 $db['development']['dbdriver'] = 'mysqli'; 		
 $db['development']['dbprefix'] = '';
 $db['development']['pconnect'] = TRUE;
@@ -129,9 +129,9 @@ $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
 $db['default']['hostname'] = 'localhost'; 		
-$db['default']['username'] = 'lakmalnewviablee_singha_bakers';
-$db['default']['password'] = '6TxDq6?U0INo';
-$db['default']['database'] = 'lakmalnewviablee_singha_bakers';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 $db['default']['dbdriver'] = 'mysqli'; 		
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
